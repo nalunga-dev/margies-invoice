@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Satisfy&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: antiquewhite;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.invoice {
+  background-color: white;
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 4rem 0rem;
+  border-bottom: 5px solid rgb(255, 170, 0);
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.head0 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 0rem 4rem;
+}
+.head {
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  /* padding: 1rem; */
+  align-items: center;
+  /* justify-content: center; */
+  /* gap: 7rem; */
+  /* border-bottom: 2px solid red; */
+}
+.head1 {
+  padding: 0.2rem;
+  font-size: 0.7rem;
+  background-color: white;
+}
+.head2 {
+  background: linear-gradient(to right, red, orange);
+  border: none;
+  border-radius: 1rem;
+  color: orangered;
+  font-size: 0.3rem;
+}
+.smith {
+  display: flex;
+  justify-content: space-between;
+}
+.p {
+  color: red;
+}
+.smithb {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 2rem;
+}
+.date {
+  display: flex;
+  gap: 0.3rem;
+}
+.date1 {
+  display: flex;
+  gap: 0.3rem;
+}
+table {
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+thead {
+  background-color: black;
+  color: white;
+}
+th {
+  padding: 0.5rem 1rem;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: rgba(0, 255, 255, 0.55);
+}
+td {
+  text-align: center;
+  padding: 0.5rem 1rem;
+}
+.pay {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 1.5rem;
+}
+.pay1 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  /* background-color: brown; */
+  width: 50%;
+  padding-left: 3rem;
+}
+.pay2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* background-color: green; */
+  width: 50%;
+  padding-left: 6rem;
+}
+.sub {
+  display: flex;
+  gap: 7.3rem;
+}
+.sub1 {
+  display: flex;
+  gap: 6rem;
+}
+.sub2 {
+  display: flex;
+  background-color: black;
+  color: white;
+  padding: 0.8rem;
+  gap: 9.1rem;
+}
+.terms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+  border-bottom: 2px solid gray;
+}
+.termsA {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.con {
+  font-size: 1rem;
+}
+.cona {
+  font-size: 0.8rem;
+}
+.termsB {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.laura {
+  font-family: "Satisfy", serif;
+  font-size: 1.5rem;
+  /* color: brown; */
+}
+.lauro {
+  padding-left: 1rem;
+  font-size: 1.5rem;
+}
+.lauroa {
+  padding-left: 2rem;
+}
+.design {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 3rem;
+}
+.design1 {
+  display: flex;
+  gap: 0.5rem;
+}
+.bx-category {
+  color: black;
+  font-size: 2rem;
+}
+.studio {
+  font-size: 0.9rem;
+}
+.studio1 {
+  font-weight: normal;
+  font-size: 0.8rem;
+}
+.design2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.bx-phone-call {
+  color: black;
+  font-weight: bolder;
+}
+.design3 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
